@@ -250,6 +250,12 @@ representing the date in its new format."
   :group 'org-page
   :type 'boolean)
 
+(defcustom op/browser-preview t
+  "open a browser after `op/do-publication-and-preview-site'.
+If set to `nil', open a browser manually for localhost:`httpd-port'"
+  :group 'org-page
+  :type 'boolean)
+
 
 (provide 'op-vars)
 
