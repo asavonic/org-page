@@ -86,7 +86,8 @@ a hash table accordint to current buffer."
            ("author" (or (op/read-org-option "AUTHOR")
                          user-full-name "Unknown Author"))
            ("description" (op/read-org-option "DESCRIPTION"))
-           ("keywords" (op/read-org-option "KEYWORDS"))))))
+           ("keywords" (op/read-org-option "KEYWORDS"))
+           ("google-site-verification" op/google-site-verification)))))
 
 (defun op/render-navigation-bar (&optional param-table)
   "Render the navigation bar on each page. it will be read firstly from

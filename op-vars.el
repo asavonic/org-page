@@ -256,6 +256,11 @@ If set to `nil', open a browser manually for localhost:`httpd-port'"
   :group 'org-page
   :type 'boolean)
 
+(defcustom op/google-site-verification ""
+  "Google site verification ID"
+  :group 'org-page
+  :type 'string)
+
 
 (provide 'op-vars)
 
